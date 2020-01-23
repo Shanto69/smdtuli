@@ -1614,6 +1614,71 @@ box-shadow: 0px 0px 4px 1px rgba(46,45,46,0.15);
 }
 
 }
+@media all and (max-width: 1077px){
+.logo a h2 span#rFonts {
+	font-size: 20px;
+}
+#iFonts {
+	font-size: 20px;
+	color: #339AF0;
+}
+.logo a h2 {
+	margin: 18px auto;
+}
+.location_pin {
+	position: absolute;
+	top: 13px;
+	right: 20%;
+}
+.location_pin i {
+	font-size: 18px;
+	color: blue;
+}
+
+}
+@media all and (max-width: 1018px){
+.logo a h2 span#rFonts {
+	font-size: 10px;
+}
+#iFonts {
+	font-size: 15px;
+	color: #339AF0;
+}
+.logo a h2 {
+	margin: 21px auto;
+}
+.location_pin {
+	position: absolute;
+	top: 23px;
+	right: 29%;
+}
+.location_pin i {
+	font-size: 8px;
+	color: blue;
+}
+.menu_left_item ul li a {
+	font-size: 5px;
+}
+.menu_left_item ul li a.new::after {
+	content: "New";
+	position: absolute;
+	top: -9px;
+	right: -22%;
+	font-size: 7px;
+	background: #f00c0cf7;
+	border-radius: 2px;
+	padding: 0 1px;
+	color: #fff;
+}
+.menu_left_item ul li a {
+	margin: 20px 15px;
+	text-decoration: none;
+	color: #339AF0;
+	font-weight: 700;
+	font-size: 10px;
+}
+
+}
 
 
 
